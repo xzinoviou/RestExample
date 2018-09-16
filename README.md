@@ -2,7 +2,7 @@
 Small Rest api example
 
 
-Small Rest api for practicing requests
+A Small Maven Rest api for practicing requests
 no ui 
 
 deployed to tomee7 , but most likely glassfish will also do the job
