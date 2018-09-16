@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Rest Example</title>
+    <link rel="stylesheet" type="text/css" href="resources/css/bootstrap.min.css">
+</head>
+<body>
+
+<div class="container">
+
+    <div class="row text-center">
+        <h1>Rest Example - Implementation</h1>
+        <br>
+        <p class="well">HTTP Methods used : GET , DELETE<br>Dummie data used</p>
+
+    </div>
+    <br>
+    <div class="row text-center">
+        <a id="getAllBtn" class="btn btn-primary" href="#">All Products</a>
+        <a id="getByIdBtn" class="btn btn-primary" href="#">Product ID</a>
+    </div>
+    <br>
+
+    <div id="viewer" class="text-center">
+        <h3>Product</h3>
+    <table class="table table-bordered">
+        <thead>
+        <tr>
+            <td>ID</td>
+            <td>Key</td>
+            <td>Brand</td>
+            <td>Name</td>
+            <td>Price</td>
+        </tr>
+        </thead>
+        <tbody>
+
+        </tbody>
+    </table>
+        <br>
+        <p id="results"></p>
+    </div>
+</div>
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="resources/js/bootstrap.min.js"></script>
+</body>
+</html>
